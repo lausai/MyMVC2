@@ -16,8 +16,19 @@ namespace MyMVC2.Controllers
             return View();
         }
 
+        [Authorize]
         public ActionResult About()
         {
+            return View();
+        }
+
+        public ActionResult Form(string FormData)
+        {
+            if (FormData != null)
+            {
+                var strs = FormData.Split(new string[] { Environment.NewLine }, StringSplitOptions.None);
+                ViewData["FormData"] = strs.Count().ToString();
+            }
             return View();
         }
     }

@@ -5,6 +5,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMVC2", "MyMVC2\MyMVC2.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMVC2.Tests", "MyMVC2.Tests\MyMVC2.Tests.csproj", "{65831661-687C-4526-B6BC-11D51C4569C4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BB7080FB-F88A-467E-A55B-F5E130657E9B}"
+	ProjectSection(SolutionItems) = preProject
+		TestSettings3.testsettings = TestSettings3.testsettings
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

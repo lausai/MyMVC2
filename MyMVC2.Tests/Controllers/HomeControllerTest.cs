@@ -38,5 +38,15 @@ namespace MyMVC2.Tests.Controllers
             // Assert
             Assert.IsNotNull(result);
         }
+
+        [TestMethod]
+        public void Form()
+        {
+            HomeController controller = new HomeController();
+
+            ViewResult result = controller.Form(string.Empty) as ViewResult;
+
+            Assert.IsNotNull(result);
+        }
     }
 }
